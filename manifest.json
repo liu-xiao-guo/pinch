@@ -1,0 +1,17 @@
+{
+    "name": "pinch.ubuntu",
+    "description": "description of pinch",
+    "architecture": "all",
+    "title": "pinch",
+    "hooks": {
+        "pinch": {
+            "apparmor": "pinch.apparmor",
+            "desktop":  "pinch.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+
